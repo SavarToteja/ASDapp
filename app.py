@@ -204,7 +204,7 @@ else:
    Q10 = 0
    A10 = 0
 Sex = st.selectbox("Q11. Gender - optional",genderOptionsVal, index= None)
-Ethnicity = st.selectbox("Q12. Ethnicity",ethnicityVl, index = None)
+Ethnicity = st.selectbox("Q12. Ethnicity - optional",ethnicityVl, index = None)
 Jaundice = st.selectbox("Q13. Does your child have jaundice (yellowish discoloration of the skin)? - optional",jaundiceVal, index = None)
 family_mem_with_ASD_val = st.selectbox("Q14. Do you have any family members with ASD? - optional",family_mem_with_ASD_val, index = None)
 age_Mons = st.slider("Q15. Age In Months",1,150,20)
